@@ -1,44 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Deepak Bhave — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Deepak Bhave</h1>
-    <p>Aspiring Full-Stack Web Developer | Web Development Intern @ CodSoft</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <header class="hero">
+    <div class="container">
+      <h1>Deepak Rupchand Bhave</h1>
+      <p class="role">Web Development Intern @ CodSoft (Sep–Oct 2025) — Aspiring Full-Stack Developer</p>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I’m Deepak, passionate about building responsive and modern web applications. Currently interning at CodSoft and learning full-stack development through Udemy.</p>
-  </section>
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <div class="about-grid">
+        <div class="avatar">
+          <img src="avatar.png" alt="Deepak Bhave" />
+        </div>
+        <div class="bio">
+          <p>Hello — I’m Deepak, a Web Development Intern at CodSoft and an aspiring full-stack developer. I am currently learning through Udemy's Full-Stack Bootcamp and building projects to strengthen my HTML, CSS, JavaScript, React, and Node.js skills.</p>
+          <p><strong>Internship:</strong> CodSoft (Batch B52) · 15 Sep 2025 — 15 Oct 2025</p>
+        </div>
+      </div>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><b>Portfolio Website</b> – Responsive personal site</li>
-      <li><b>Landing Page</b> – Modern product showcase</li>
-      <li><b>Calculator</b> – Functional calculator app</li>
-    </ul>
-  </section>
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML &amp; CSS</li>
+        <li>JavaScript (ES6+)</li>
+        <li>React (basics)</li>
+        <li>Node.js &amp; Express (basics)</li>
+        <li>Git &amp; GitHub</li>
+        <li>Responsive Design</li>
+      </ul>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: dbhave70@gmail.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/deepak-bhave-902038223" target="_blank">Deepak Bhave</a></p>
-  </section>
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Portfolio Website (This project)</h3>
+        <p>A responsive personal portfolio built with HTML, CSS and a little JavaScript to showcase projects and contact information.</p>
+        <p><strong>Live demo:</strong> <span id="live-demo">[Add GitHub Pages link after deployment]</span></p>
+      </div>
+    </section>
 
-  <footer>
-    <p>© 2025 Deepak Bhave | CodSoft Internship</p>
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:dbhave70@gmail.com">dbhave70@gmail.com</a></p>
+      <p>Phone: +91-7066062188</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/deepak-bhave-902038223" target="_blank">Deepak Bhave</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Deepak Rupchand Bhave — CodSoft Internship</p>
+    </div>
   </footer>
 </body>
 </html>
